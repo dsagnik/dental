@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="gal1Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F4F7FA"/>
+      <stop offset="100%" style="stop-color:#E8F4F8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#gal1Grad)"/>
+  <!-- Treatment chair -->
+  <ellipse cx="400" cy="350" rx="180" ry="100" fill="#2A4FA3" opacity="0.15"/>
+  <rect x="300" y="200" width="200" height="80" rx="15" fill="#2BB7A8" opacity="0.3"/>
+  <!-- Light -->
+  <circle cx="400" cy="150" r="50" fill="#7ED6CF" opacity="0.4"/>
+  <text x="400" y="450" text-anchor="middle" font-family="Poppins, Arial" font-size="24" fill="#2A4FA3" opacity="0.6">Treatment Room</text>
+  <text x="400" y="490" text-anchor="middle" font-family="Inter, Arial" font-size="16" fill="#64748B">Modern dental equipment</text>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="clinicGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F4F7FA"/>
+      <stop offset="100%" style="stop-color:#E8F4F8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#clinicGrad)"/>
+  <!-- Reception desk -->
+  <rect x="100" y="350" width="250" height="100" rx="10" fill="#2A4FA3" opacity="0.2"/>
+  <!-- Plants -->
+  <ellipse cx="650" cy="380" rx="40" ry="80" fill="#2BB7A8" opacity="0.3"/>
+  <ellipse cx="100" cy="350" rx="30" ry="60" fill="#2BB7A8" opacity="0.25"/>
+  <!-- Chairs -->
+  <rect x="450" y="380" width="80" height="50" rx="5" fill="#7ED6CF" opacity="0.4"/>
+  <rect x="550" y="380" width="80" height="50" rx="5" fill="#7ED6CF" opacity="0.4"/>
+  <!-- Dental icons -->
+  <text x="400" y="250" text-anchor="middle" font-family="Arial" font-size="80" fill="#2A4FA3" opacity="0.3">🏥</text>
+  <text x="400" y="500" text-anchor="middle" font-family="Poppins, Arial" font-size="28" fill="#2A4FA3" opacity="0.5">Modern Clinic Interior</text>
+</svg>
