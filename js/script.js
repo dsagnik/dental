@@ -150,54 +150,33 @@ document.addEventListener('DOMContentLoaded', function () {
   `;
     document.head.appendChild(style);
 
-    // =====================================================
-    // COUNTER ANIMATION FOR TRUST NUMBERS
-    // =====================================================
-    function animateCounter(element, target, suffix = '') {
-        const duration = 2000;
-        const increment = target / (duration / 16);
-        let current = 0;
-
-        const timer = setInterval(() => {
-            current += increment;
-            if (current >= target) {
-                current = target;
-                clearInterval(timer);
-            }
-            element.textContent = Math.floor(current) + suffix;
-        }, 16);
+    /* Counter Code Here
+        // =====================================================
+        // COUNTER ANIMATION FOR TRUST NUMBERS
+        // =====================================================
+        function animateCounter(element, target, suffix = '') {
+        ...
     }
-
-    // Observe trust numbers for counter animation
+    
     const trustNumbers = document.querySelectorAll('.trust__number');
     const trustObserver = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                const element = entry.target;
-                const text = element.textContent;
-                const number = parseInt(text.replace(/\D/g, ''));
-                const suffix = text.replace(/[0-9]/g, '');
-
-                element.textContent = '0' + suffix;
-                animateCounter(element, number, suffix);
-                trustObserver.unobserve(element);
-            }
-        });
-    }, { threshold: 0.5 });
-
+        ...
+    });
+    
     trustNumbers.forEach(num => trustObserver.observe(num));
-
+    
+    
     // =====================================================
     // FLOATING WHATSAPP BUTTON VISIBILITY
     // =====================================================
     const whatsappFloat = document.querySelector('.whatsapp-float');
-
+    
     if (whatsappFloat) {
         // Hide initially and show after scrolling a bit
         whatsappFloat.style.opacity = '0';
         whatsappFloat.style.visibility = 'hidden';
         whatsappFloat.style.transition = 'opacity 0.3s ease, visibility 0.3s ease';
-
+    
         window.addEventListener('scroll', function () {
             if (window.pageYOffset > 300) {
                 whatsappFloat.style.opacity = '1';
@@ -208,6 +187,7 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     }
+        */
 
     // =====================================================
     // FORM VALIDATION (if contact form exists)
