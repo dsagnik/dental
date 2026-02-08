@@ -354,6 +354,30 @@ p {
   width: auto;
 }
 
+.header__logo {
+  position: relative;
+  overflow: hidden;
+}
+
+.header__logo::after {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -80%;
+  width: 60%;
+  height: 200%;
+  background: linear-gradient(120deg,
+      transparent,
+      rgba(255, 255, 255, 0.6),
+      transparent);
+  transform: skewX(-25deg);
+}
+
+.header__logo:hover::after {
+  left: 120%;
+  transition: 0.7s ease;
+}
+
 .nav {
   display: flex;
   align-items: center;
@@ -1029,6 +1053,29 @@ p {
 .footer__logo img {
   height: 40px;
   filter: brightness(0) invert(1);
+}
+
+.footer__logo {
+  position: relative;
+  overflow: hidden;
+}
+
+.footer__logo::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right,
+      transparent,
+      rgba(255, 255, 255, 0.3),
+      transparent);
+  transition: 0.6s;
+}
+
+.footer__logo:hover::after {
+  left: 100%;
 }
 
 .footer__brand p {
@@ -2516,4 +2563,13 @@ p {
   justify-content: space-between;
   /* Push name to bottom */
   height: 100%;
+}
+
+/* Fix WhatsApp button icon size (All Devices) */
+.btn--whatsapp svg,
+.btn--whatsapp i {
+  width: 22px !important;
+  height: 22px !important;
+  min-width: 22px;
+  min-height: 22px;
 }

@@ -96,8 +96,8 @@ dental-main/
         ├── service2.jpg   # Dental Implants
         ├── service3.jpg   # Cosmetic Dentistry
         ├── service4.jpg   # Root Canal
-        ├── service5.jpg   # Orthodontics
-        └── service6.jpg   # Emergency Care
+        ├── service5.jpg   # Teeth Whitening
+        └── service6.jpg   # Orthodontics & Braces
 ```
 
 ---
@@ -111,16 +111,9 @@ dental-main/
 - Optional: Live Server extension for VS Code
 
 ### Setup Steps
+1. **Open in Browser** - Simply open `index.html` in your browser, OR
 
-1. **Clone or Download** the project:
-   ```bash
-   git clone <repository-url>
-   cd dental-main
-   ```
-
-2. **Open in Browser** - Simply open `index.html` in your browser, OR
-
-3. **Use Live Server** (Recommended):
+2. **Use Live Server** (Recommended):
    - Install VS Code extension "Live Server"
    - Right-click on `index.html` → "Open with Live Server"
    - Website will be available at `http://localhost:5500`
@@ -149,7 +142,6 @@ This is a static website with no build steps. All files are ready to use as-is.
 
 **Content:**
 - Dr. Bharath Kumar profile and qualifications
-- Dr. Prasanthi profile
 - Clinic mission and values
 - Why choose us section
 
@@ -160,8 +152,8 @@ This is a static website with no build steps. All files are ready to use as-is.
 2. Dental Implants
 3. Cosmetic Dentistry
 4. Root Canal Treatment
-5. Orthodontics (Braces)
-6. Emergency Dental Care
+5. Teeth Whitening
+6. Orthodontics (Braces)
 
 Each service card has a direct WhatsApp booking link.
 
@@ -174,7 +166,7 @@ Each service card has a direct WhatsApp booking link.
 
 ### 5. Contact Page (`contact.html`)
 
-- Contact form
+- Contact Informations
 - Clinic address and phone
 - Business hours
 - Embedded Google Maps
@@ -269,13 +261,7 @@ Each service card has a direct WhatsApp booking link.
 // Targets: .service-card, .testimonial-card, .gallery__item
 ```
 
-#### 6. Form Validation
-```javascript
-// Basic validation for contact form
-// Email format checking
-```
-
-#### 7. Gallery Lightbox
+#### 6. Gallery Lightbox
 ```javascript
 // Click any gallery image to view enlarged
 // Close with X button, overlay click, or Escape key
@@ -302,6 +288,7 @@ Each service card has a direct WhatsApp booking link.
 ### Service Images
 - Recommended: 600x400px
 - Each service card uses these images
+- Format: JPG (optimized for web)
 
 ### Image Optimization Tips
 
@@ -479,4 +466,4 @@ Upload all files to:
 
 **Last Updated:** February 2026
 
-**Made with ❤️ by Shrionik Branding Agency**
+**Made with ❤️ by Shrionik Branding Agency Development Team**

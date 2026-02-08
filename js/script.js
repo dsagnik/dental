@@ -345,3 +345,13 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
 });
+
+// Auto Update Footer Year Range
+const startYear = 2025; // Your company start year
+const currentYear = new Date().getFullYear();
+
+const yearText = startYear === currentYear
+    ? currentYear
+    : `${startYear}–${currentYear}`;
+
+document.getElementById("year-range").textContent = yearText;
